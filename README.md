@@ -40,8 +40,8 @@ Decision nodes are silent — they branch automatically based on the previous an
 
 > A) Productive
 > B) Challenging
-> **C) Mixed**
-> D) Draining
+> C) Mixed
+> **D) Draining**
 
 **Maya picks: Draining**
 
