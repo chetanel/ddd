@@ -40,7 +40,7 @@ You can experience the fully deployed agent here:
 If you prefer to test the agent locally:
 1. Clone this repository to your machine.
 2. Double-click `index.html` to open it in any modern web browser.
-3. Due to browser CORS policies blocking local file fetching, a **"Load Ontology"** screen will automatically appear.
+3.A **"Load Ontology"** screen will automatically appear.
 4. Click **Choose Data File** and upload the `reflection-tree-final.csv` (or `.json` / `.tsv`) file included in this repository.
 5. The UI will instantly parse the logic and begin the session.
 
@@ -65,10 +65,10 @@ The "brain" of this agent lives entirely inside `reflection-tree-final.csv`. It 
 ## 📂 Repository Structure
 
 ```text
-├── reflection-tree-final.csv             # The core logic engine / data ontology
-├── index.html                            # The Static SPA / Conversational UI
-├── reflection-tree-csv-exact-clean.drawio.svg # 1:1 Visual architecture diagram
-├── write-up.md                           # 2-page explanation of design & psychology
+├── reflection-tree.tsv                   # The core logic engine / data ontology
+├── reflectos.html                        # The Static SPA / Conversational UI Hosted using AWS S3
+├── tree_diagram.svg                      # 1:1 Visual architecture diagram
+├── write-up.md                           # Explanation of design & psychology
 └── /transcripts                          # Markdown files showing example persona sessions
-    ├── persona-1-transcript.md           # Example: The Passenger (External/Self-Centric)
-    └── persona-2-transcript.md           # Example: The Architect (Internal/Altrocentric)
+    ├── persona-1-transcript.md           # Example:  victim/entitled/self-centric
+    └── persona-2-transcript.md           # Example:  victor/contributing/altrocentric
